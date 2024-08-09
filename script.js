@@ -6,14 +6,14 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Qual é a principal diferença entre o vôlei de quadra e o vôlei de praia em termos de regras e ambiente de jogo?",
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "O vôlei de quadra é jogado em um ambiente fechado com seis jogadores em cada equipe e um sistema de três toques por equipe, enquanto o vôlei de praia é jogado ao ar livre com duas equipes de dois jogadores e um sistema de dois toques por equipe.",
+                afirmacao: "No vôlei de quadra, o jogo ocorre em ambientes fechados com seis jogadores em cada time e permite três toques por equipe antes de passar a bola para o time adversário. No vôlei de praia, o jogo ocorre ao ar livre com duas equipes de dois jogadores e apenas três toques são permitidos por equipe.) "
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "O vôlei de praia é jogado em uma quadra coberta com seis jogadores em cada equipe, enquanto o vôlei de quadra é jogado ao ar livre com apenas dois jogadores por equipe.",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
