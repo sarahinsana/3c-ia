@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "O vôlei de praia é jogado em uma quadra coberta com seis jogadores em cada equipe, enquanto o vôlei de quadra é jogado ao ar livre com apenas dois jogadores por equipe.",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Isso está incorreto, pois o vôlei de praia é jogado ao ar livre com apenas dois jogadores por equipe, e o vôlei de quadra é jogado em ambientes fechados com seis jogadores em cada equipe."
             }
         ]
     },
@@ -105,7 +105,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Explicação...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }
